@@ -1,0 +1,37 @@
+env/
+venv/
+.venv/
+.python-version # pyenv
+
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE specific files (PyCharm)
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Mypy and Ruff cache
+.mypy_cache/
+.ruff_cache/
+
+# IPython / Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Database files (if SQLite is used, e.g. for development)
+*.sqlite
+*.sqlite3
+
