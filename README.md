@@ -53,20 +53,23 @@ uvicorn main:app --reload
 1. **Navigate to the frontend folder:**
 
 ```bash
-cd frontend```
+cd frontend
+```
 
 2. **Install dependencies:**
 
 ```bash
 npm install
 # or
-yarn```
+yarn
+```
 
-### 3. **Run development server:**
+ 3. **Run development server:**
 
 ```bash
 Copy
 Edit
 npm run dev
 # or
-yarn dev```
+yarn dev
+```
