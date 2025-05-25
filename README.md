@@ -48,25 +48,25 @@ pip install -r requirements.txt
 uvicorn main:app --reload 
 ```
 
-### 📦 Backend (FastAPI)
+### 📦 Frontend (Next.js React)
 
 1. **Navigate to the frontend folder:**
 
 ```bash
-cd frontend``
+cd frontend```
 
 2. **Install dependencies:**
 
 ```bash
 npm install
 # or
-yarn``
+yarn```
 
-3. **Run development server:**
+### 3. **Run development server:**
 
-``bash
+```bash
 Copy
 Edit
 npm run dev
 # or
-yarn dev``
+yarn dev```
