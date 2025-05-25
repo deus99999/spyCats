@@ -26,7 +26,7 @@ It allows you to manage secret agent cats, their missions, and mission targets.
 
 ## 🛠️ How to Run the Project
 
-### Prerequisites
+### Requirements
 
 - Python 3.10+
 - Node.js 18+
