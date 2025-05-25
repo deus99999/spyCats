@@ -67,9 +67,10 @@ yarn
  3. **Run development server:**
 
 ```bash
-Copy
-Edit
 npm run dev
 # or
 yarn dev
 ```
+#Visit in browser:
+
+```http://localhost:3000```
