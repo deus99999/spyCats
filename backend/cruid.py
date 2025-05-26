@@ -7,10 +7,10 @@ from sqlalchemy.orm import selectinload
 from starlette import status
 
 from database import get_session
-from models import SpyCat, Mission, Target, TargetRead
+from models import SpyCat, Mission, Target
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 
-from schemas import SpyCatCreate, SpyCatRead, UpdateSalaryRequest, MissionCreate, MissionRead, TargetUpdate
+from schemas import SpyCatCreate, SpyCatRead, UpdateSalaryRequest, MissionCreate, MissionRead, TargetUpdate, TargetRead
 
 cat_router = APIRouter()
 

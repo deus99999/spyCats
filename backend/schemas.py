@@ -50,3 +50,15 @@ class MissionRead(BaseModel):
 class TargetUpdate(BaseModel):
     notes: Optional[str] = None
     is_complete: Optional[bool] = None
+
+
+class TargetRead(BaseModel):
+    id: int
+    name: str
+    country: str
+    notes: Optional[str]
+    is_complete: bool
+    mission_id: int
+
+    class Config:
+        from_attributes = True
