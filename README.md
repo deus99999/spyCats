@@ -75,7 +75,7 @@ yarn dev
 ```#Visit in browser:
 
 http://localhost:3000
-
+```
 ### 📬 Postman API Collection
 
 All API endpoints are available in this Postman collection:  
