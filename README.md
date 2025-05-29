@@ -71,6 +71,12 @@ npm run dev
 # or
 yarn dev
 ```
-#Visit in browser:
+```#Visit in browser:
 
-```http://localhost:3000```
+http://localhost:3000```
+
+### 📬 Postman API Collection
+
+All API endpoints are available in this Postman collection:  
+👉 [SpyCats Postman Collection](https://www.postman.com/aviation-cosmologist-8462579/cats/collection/39917540-1fb08c5e-e03a-4155-937c-a082cf87fdf0)
+
