@@ -71,9 +71,10 @@ npm run dev
 # or
 yarn dev
 ```
+
 ```#Visit in browser:
 
-http://localhost:3000```
+http://localhost:3000
 
 ### 📬 Postman API Collection
 
