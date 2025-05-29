@@ -102,7 +102,7 @@ async def update_cat_salary(cat_id: int, update_data: UpdateSalaryRequest, sessi
 mission_router = APIRouter()
 
 
-@mission_router.post("/", response_model=MissionRead)
+@mission_router.post("/create_mission", response_model=MissionRead)
 async def create_mission(mission_data: MissionCreate, session: AsyncSession = Depends(get_session)):
     mission = Mission(name=mission_data.name, is_complete=mission_data.is_complete)
 
